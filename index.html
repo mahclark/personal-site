@@ -44,20 +44,24 @@
             flex: 1;
         }
         h1 {
-            font-size: 3.5vw;
+            font-size: 3.4vw;
             margin: 0;
             margin-right: 10px;
             line-height: 1.2;
+            font-style: italic;
+            font-weight: normal;
         }
-        h2 {
+        h1.location {
             font-size: 2.5vw;
             margin: 0;
             margin-right: 10px;
             line-height: 1.2;
-        }
-        .highlight {
             font-style: italic;
             font-weight: normal;
+        }
+        .highlight {
+            font-style: normal;
+            font-weight: bold;
         }
         .profile-image {
             width: 40%;
@@ -187,7 +191,7 @@
             h1 {
                 font-size: 5vw;
             }
-            h2 {
+            h1.location {
                 font-size: 3.5vw;
             }
             .subtitle {
@@ -232,8 +236,8 @@
         <main>
             <div class="banner">
                 <div class="content">
-                    <h1>Hi. I am an <br><span class="highlight">AI alignment researcher & software engineer</span></h1>
-                    <h2>currently based in London</h2>
+                    <h1>Hi. I am an <br><span class="highlight">AI alignment researcher<br>& software engineer</span></h1>
+                    <h1 class="location">currently based in London</h1>
                     <div class="subtitle">
                         I'm on a 1 year non-compete, ending 25th Oct 2024
                     </div>
